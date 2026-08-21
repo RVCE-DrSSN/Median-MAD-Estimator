@@ -18,7 +18,7 @@ The sentinel receives an 8-bit input data stream. It combines a streaming median
 ## Design summary
 ---
 
-- **Top module:** `tt_um_MTK1234_anomaly_sentinel`
+- **Top module:** `tt_um_Median_MAD`
 - **Real device count:** ~600 standard cells (post-LVS, SkyWater 130nm sky130_fd_sc_hd)
 - **Clock:** 50 MHz (20ns period)
 - **Verified:** DRC, LVS, and Antenna checks clean via LibreLane and Tiny Tapeout CI pipeline
